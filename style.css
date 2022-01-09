@@ -1,0 +1,49 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: #c93772;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: 'Satisfy', cursive;
+  color: #c93772;
+  background: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: #c93772;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%
+}
+
+footer {
+  font-family: 'Quicksand', sans-serif;
+}
